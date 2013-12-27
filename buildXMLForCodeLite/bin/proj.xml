@@ -1,0 +1,2158 @@
+<VirtualDirectory Name="src">
+	<VirtualDirectory Name="cocos2d-x">
+		<VirtualDirectory Name="CocosDenshion">
+			<VirtualDirectory Name="android">
+				<VirtualDirectory Name="jni">
+					<File
+						Name="cocos2d-x/CocosDenshion/android/jni/SimpleAudioEngineJni.cpp" />
+					<File Name="cocos2d-x/CocosDenshion/android/jni/SimpleAudioEngineJni.h" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="opensl">
+					<File Name="cocos2d-x/CocosDenshion/android/opensl/OpenSLEngine.cpp" />
+					<File Name="cocos2d-x/CocosDenshion/android/opensl/OpenSLEngine.h" />
+					<File
+						Name="cocos2d-x/CocosDenshion/android/opensl/SimpleAudioEngineOpenSL.cpp" />
+					<File
+						Name="cocos2d-x/CocosDenshion/android/opensl/SimpleAudioEngineOpenSL.h" />
+					<VirtualDirectory Name="SLES">
+						<File Name="cocos2d-x/CocosDenshion/android/opensl/SLES/OpenSLES.h" />
+						<File
+							Name="cocos2d-x/CocosDenshion/android/opensl/SLES/OpenSLES_Android.h" />
+						<File
+							Name="cocos2d-x/CocosDenshion/android/opensl/SLES/OpenSLES_AndroidConfiguration.h" />
+						<File
+							Name="cocos2d-x/CocosDenshion/android/opensl/SLES/OpenSLES_Platform.h" />
+					</VirtualDirectory>
+					<VirtualDirectory Name="android">
+						<File
+							Name="cocos2d-x/CocosDenshion/android/opensl/android/asset_manager.h" />
+						<File
+							Name="cocos2d-x/CocosDenshion/android/opensl/android/asset_manager_jni.h" />
+					</VirtualDirectory>
+				</VirtualDirectory>
+				<File Name="cocos2d-x/CocosDenshion/android/Android.mk" />
+				<File Name="cocos2d-x/CocosDenshion/android/SimpleAudioEngine.cpp" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="ios">
+				<File Name="cocos2d-x/CocosDenshion/ios/CDAudioManager.h" />
+				<File Name="cocos2d-x/CocosDenshion/ios/CDAudioManager.m" />
+				<File Name="cocos2d-x/CocosDenshion/ios/CDConfig.h" />
+				<File Name="cocos2d-x/CocosDenshion/ios/CDOpenALSupport.h" />
+				<File Name="cocos2d-x/CocosDenshion/ios/CDOpenALSupport.m" />
+				<File Name="cocos2d-x/CocosDenshion/ios/CocosDenshion.h" />
+				<File Name="cocos2d-x/CocosDenshion/ios/CocosDenshion.m" />
+				<File Name="cocos2d-x/CocosDenshion/ios/SimpleAudioEngine.mm" />
+				<File Name="cocos2d-x/CocosDenshion/ios/SimpleAudioEngine_objc.h" />
+				<File Name="cocos2d-x/CocosDenshion/ios/SimpleAudioEngine_objc.m" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="win32">
+				<File Name="cocos2d-x/CocosDenshion/win32/MciPlayer.cpp" />
+				<File Name="cocos2d-x/CocosDenshion/win32/MciPlayer.h" />
+				<File Name="cocos2d-x/CocosDenshion/win32/SimpleAudioEngine.cpp" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="mac">
+				<File Name="cocos2d-x/CocosDenshion/mac/CDAudioManager.h" />
+				<File Name="cocos2d-x/CocosDenshion/mac/CDAudioManager.m" />
+				<File Name="cocos2d-x/CocosDenshion/mac/CDConfig.h" />
+				<File Name="cocos2d-x/CocosDenshion/mac/CDOpenALSupport.h" />
+				<File Name="cocos2d-x/CocosDenshion/mac/CDOpenALSupport.m" />
+				<File Name="cocos2d-x/CocosDenshion/mac/CDXMacOSXSupport.h" />
+				<File Name="cocos2d-x/CocosDenshion/mac/CDXMacOSXSupport.mm" />
+				<File Name="cocos2d-x/CocosDenshion/mac/CocosDenshion.h" />
+				<File Name="cocos2d-x/CocosDenshion/mac/CocosDenshion.m" />
+				<File Name="cocos2d-x/CocosDenshion/mac/SimpleAudioEngine.mm" />
+				<File Name="cocos2d-x/CocosDenshion/mac/SimpleAudioEngine_objc.h" />
+				<File Name="cocos2d-x/CocosDenshion/mac/SimpleAudioEngine_objc.m" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="include">
+				<File Name="cocos2d-x/CocosDenshion/include/Export.h" />
+				<File Name="cocos2d-x/CocosDenshion/include/SimpleAudioEngine.h" />
+			</VirtualDirectory>
+		</VirtualDirectory>
+		<VirtualDirectory Name="scripting">
+			<VirtualDirectory Name="lua">
+				<VirtualDirectory Name="luajit">
+					<VirtualDirectory Name="LuaJIT-2.0.1">
+						<VirtualDirectory Name="etc">
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/etc/luajit.1" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/etc/luajit.pc" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="dynasm">
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/dynasm/dasm_arm.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/dynasm/dasm_arm.lua" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/dynasm/dasm_mips.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/dynasm/dasm_mips.lua" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/dynasm/dasm_ppc.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/dynasm/dasm_ppc.lua" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/dynasm/dasm_proto.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/dynasm/dasm_x64.lua" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/dynasm/dasm_x86.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/dynasm/dasm_x86.lua" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/dynasm/dynasm.lua" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="doc">
+							<VirtualDirectory Name="img">
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/img/contact.png" />
+							</VirtualDirectory>
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/bluequad-print.css" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/bluequad.css" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/changes.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/contact.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/ext_c_api.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/ext_ffi.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/ext_ffi_api.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/ext_ffi_semantics.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/ext_ffi_tutorial.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/ext_jit.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/extensions.html" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/faq.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/install.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/luajit.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/running.html" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/doc/status.html" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="src">
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lauxlib.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_aux.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_base.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_bit.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_debug.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_ffi.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_init.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_io.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_jit.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_math.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_os.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_package.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_string.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lib_table.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj.supp" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_alloc.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_alloc.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_api.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_arch.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_asm.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_asm.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_asm_arm.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_asm_mips.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_asm_ppc.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_asm_x86.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_bc.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_bc.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_bcdump.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_bcread.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_bcwrite.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_carith.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_carith.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ccall.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ccall.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ccallback.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ccallback.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_cconv.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_cconv.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_cdata.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_cdata.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_char.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_char.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_clib.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_clib.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_cparse.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_cparse.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_crecord.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_crecord.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ctype.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ctype.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_debug.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_debug.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_def.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_dispatch.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_dispatch.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_emit_arm.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_emit_mips.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_emit_ppc.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_emit_x86.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_err.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_err.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_errmsg.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ff.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ffrecord.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ffrecord.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_frame.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_func.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_func.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_gc.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_gc.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_gdbjit.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_gdbjit.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ir.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ir.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_ircall.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_iropt.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_jit.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_lex.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_lex.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_lib.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_lib.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_load.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_mcode.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_mcode.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_meta.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_meta.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_obj.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_obj.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_opt_dce.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_opt_fold.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_opt_loop.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_opt_mem.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_opt_narrow.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_opt_sink.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_opt_split.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_parse.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_parse.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_record.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_record.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_snap.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_snap.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_state.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_state.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_str.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_str.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_strscan.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_strscan.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_tab.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_tab.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_target.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_target_arm.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_target_mips.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_target_ppc.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_target_x86.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_trace.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_trace.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_traceerr.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_udata.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_udata.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_vm.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_vmevent.c" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_vmevent.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lj_vmmath.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/ljamalg.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lua.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lua.hpp" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/luaconf.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/luajit.c" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/luajit.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/lualib.h" />
+							<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/Makefile" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/Makefile.dep" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/msvcbuild.bat" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/vm_arm.dasc" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/vm_mips.dasc" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/vm_ppc.dasc" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/vm_ppcspe.dasc" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/vm_x86.dasc" />
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/xedkbuild.bat" />
+							<VirtualDirectory Name="jit">
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/jit/bc.lua" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/jit/bcsave.lua" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/jit/dis_arm.lua" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/jit/dis_mips.lua" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/jit/dis_mipsel.lua" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/jit/dis_ppc.lua" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/jit/dis_x64.lua" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/jit/dis_x86.lua" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/jit/dump.lua" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/jit/v.lua" />
+							</VirtualDirectory>
+							<VirtualDirectory Name="host">
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/host/buildvm.c" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/host/buildvm.h" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/host/buildvm_asm.c" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/host/buildvm_fold.c" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/host/buildvm_lib.c" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/host/buildvm_peobj.c" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/host/genminilua.lua" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/host/minilua.c" />
+								<File
+									Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/src/host/README" />
+							</VirtualDirectory>
+						</VirtualDirectory>
+						<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/COPYRIGHT" />
+						<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/Makefile" />
+						<File Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/README" />
+						<File
+							Name="cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.1/v2.0.1_hotfix1.patch" />
+					</VirtualDirectory>
+					<VirtualDirectory Name="mac">
+						<File Name="cocos2d-x/scripting/lua/luajit/mac/libluajit2.a" />
+					</VirtualDirectory>
+					<VirtualDirectory Name="android">
+						<VirtualDirectory Name="armeabi">
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/android/armeabi/libluajit.a" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="armeabi-v7a">
+							<File
+								Name="cocos2d-x/scripting/lua/luajit/android/armeabi-v7a/libluajit.a" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="x86">
+							<File Name="cocos2d-x/scripting/lua/luajit/android/x86/libluajit.a" />
+						</VirtualDirectory>
+					</VirtualDirectory>
+					<VirtualDirectory Name="include">
+						<File Name="cocos2d-x/scripting/lua/luajit/include/lauxlib.h" />
+						<File Name="cocos2d-x/scripting/lua/luajit/include/lua.h" />
+						<File Name="cocos2d-x/scripting/lua/luajit/include/luaconf.h" />
+						<File Name="cocos2d-x/scripting/lua/luajit/include/lualib.h" />
+					</VirtualDirectory>
+					<VirtualDirectory Name="ios">
+						<File Name="cocos2d-x/scripting/lua/luajit/ios/libluajit.a" />
+					</VirtualDirectory>
+					<VirtualDirectory Name="win32">
+						<File Name="cocos2d-x/scripting/lua/luajit/win32/lua51.dll" />
+						<File Name="cocos2d-x/scripting/lua/luajit/win32/lua51.lib" />
+					</VirtualDirectory>
+					<File Name="cocos2d-x/scripting/lua/luajit/Android.mk" />
+					<File Name="cocos2d-x/scripting/lua/luajit/build_android.sh" />
+					<File Name="cocos2d-x/scripting/lua/luajit/build_ios.sh" />
+					<File Name="cocos2d-x/scripting/lua/luajit/build_mac.sh" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="tolua">
+					<File Name="cocos2d-x/scripting/lua/tolua/tolua++.h" />
+					<File Name="cocos2d-x/scripting/lua/tolua/tolua_event.c" />
+					<File Name="cocos2d-x/scripting/lua/tolua/tolua_event.h" />
+					<File Name="cocos2d-x/scripting/lua/tolua/tolua_is.c" />
+					<File Name="cocos2d-x/scripting/lua/tolua/tolua_map.c" />
+					<File Name="cocos2d-x/scripting/lua/tolua/tolua_push.c" />
+					<File Name="cocos2d-x/scripting/lua/tolua/tolua_to.c" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="cocos2dx_support">
+					<VirtualDirectory Name="platform">
+						<VirtualDirectory Name="ios">
+							<File
+								Name="cocos2d-x/scripting/lua/cocos2dx_support/platform/ios/CCLuaObjcBridge.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/cocos2dx_support/platform/ios/CCLuaObjcBridge.mm" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="android">
+							<File
+								Name="cocos2d-x/scripting/lua/cocos2dx_support/platform/android/CCLuaJavaBridge.cpp" />
+							<File
+								Name="cocos2d-x/scripting/lua/cocos2dx_support/platform/android/CCLuaJavaBridge.h" />
+							<File
+								Name="cocos2d-x/scripting/lua/cocos2dx_support/platform/android/org_cocos2dx_lib_Cocos2dxLuaJavaBridge.cpp" />
+							<File
+								Name="cocos2d-x/scripting/lua/cocos2dx_support/platform/android/org_cocos2dx_lib_Cocos2dxLuaJavaBridge.h" />
+						</VirtualDirectory>
+					</VirtualDirectory>
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/CCBProxy.cpp" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/CCBProxy.h" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/CCLuaBridge.cpp" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/CCLuaBridge.h" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/CCLuaEngine.cpp" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/CCLuaEngine.h" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/CCLuaStack.cpp" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/CCLuaStack.h" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/CCLuaValue.cpp" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/CCLuaValue.h" />
+					<File
+						Name="cocos2d-x/scripting/lua/cocos2dx_support/Cocos2dxLuaLoader.cpp" />
+					<File
+						Name="cocos2d-x/scripting/lua/cocos2dx_support/Cocos2dxLuaLoader.h" />
+					<File
+						Name="cocos2d-x/scripting/lua/cocos2dx_support/Lua_extensions_CCB.cpp" />
+					<File
+						Name="cocos2d-x/scripting/lua/cocos2dx_support/Lua_extensions_CCB.h" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/LuaCocos2d.cpp" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/LuaCocos2d.h" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/snapshot.c" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/snapshot.h" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/tolua_fix.c" />
+					<File Name="cocos2d-x/scripting/lua/cocos2dx_support/tolua_fix.h" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="proj.android">
+					<File Name="cocos2d-x/scripting/lua/proj.android/Android.mk" />
+				</VirtualDirectory>
+			</VirtualDirectory>
+		</VirtualDirectory>
+		<VirtualDirectory Name="cocos2dx">
+			<VirtualDirectory Name="platform">
+				<VirtualDirectory Name="mac">
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCAccelerometer.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCApplication.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCApplication.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCCommon.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCDevice.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCDirectorCaller.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCDirectorCaller.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCEGLView.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCEGLView.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCEventDispatcher.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCEventDispatcher.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCFileUtilsMac.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCFileUtilsMac.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCGL.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCImage.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCPlatformDefine.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCStdC.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCThread.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCWindow.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/CCWindow.m" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/EAGLView.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/mac/EAGLView.mm" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="third_party">
+					<VirtualDirectory Name="android">
+						<VirtualDirectory Name="prebuilt">
+							<VirtualDirectory Name="libtiff">
+								<File
+									Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libtiff/Android.mk" />
+								<VirtualDirectory Name="include">
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libtiff/include/tiff.h" />
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libtiff/include/tiffconf.h" />
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libtiff/include/tiffio.h" />
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libtiff/include/tiffvers.h" />
+								</VirtualDirectory>
+								<VirtualDirectory Name="libs">
+									<VirtualDirectory Name="x86">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libtiff/libs/x86/libtiff.a" />
+									</VirtualDirectory>
+									<VirtualDirectory Name="armeabi">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libtiff/libs/armeabi/libtiff.a" />
+									</VirtualDirectory>
+									<VirtualDirectory Name="armeabi-v7a">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libtiff/libs/armeabi-v7a/libtiff.a" />
+									</VirtualDirectory>
+								</VirtualDirectory>
+							</VirtualDirectory>
+							<VirtualDirectory Name="libcurl">
+								<File
+									Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/Android.mk" />
+								<VirtualDirectory Name="libs">
+									<VirtualDirectory Name="x86">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/libs/x86/libcurl.a" />
+									</VirtualDirectory>
+									<VirtualDirectory Name="armeabi-v7a">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/libs/armeabi-v7a/libcurl.a" />
+									</VirtualDirectory>
+									<VirtualDirectory Name="armeabi">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/libs/armeabi/libcurl.a" />
+									</VirtualDirectory>
+								</VirtualDirectory>
+								<VirtualDirectory Name="include">
+									<VirtualDirectory Name="curl">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/curl.h" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/curlbuild.h" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/curlrules.h" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/curlver.h" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/easy.h" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/mprintf.h" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/multi.h" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/stdcheaders.h" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/typecheck-gcc.h" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/types.h" />
+									</VirtualDirectory>
+								</VirtualDirectory>
+							</VirtualDirectory>
+							<VirtualDirectory Name="libpng">
+								<File
+									Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libpng/Android.mk" />
+								<VirtualDirectory Name="libs">
+									<VirtualDirectory Name="armeabi-v7a">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libpng/libs/armeabi-v7a/libpng.a" />
+									</VirtualDirectory>
+									<VirtualDirectory Name="x86">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libpng/libs/x86/libpng.a" />
+									</VirtualDirectory>
+									<VirtualDirectory Name="armeabi">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libpng/libs/armeabi/libpng.a" />
+									</VirtualDirectory>
+								</VirtualDirectory>
+								<VirtualDirectory Name="include">
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libpng/include/png.h" />
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libpng/include/pngconf.h" />
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libpng/include/pngusr.h" />
+								</VirtualDirectory>
+							</VirtualDirectory>
+							<VirtualDirectory Name="libjpeg">
+								<VirtualDirectory Name="libs">
+									<VirtualDirectory Name="armeabi">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libjpeg/libs/armeabi/libjpeg.a" />
+									</VirtualDirectory>
+									<VirtualDirectory Name="armeabi-v7a">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libjpeg/libs/armeabi-v7a/libjpeg.a" />
+									</VirtualDirectory>
+									<VirtualDirectory Name="x86">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libjpeg/libs/x86/libjpeg.a" />
+									</VirtualDirectory>
+								</VirtualDirectory>
+								<VirtualDirectory Name="include">
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libjpeg/include/jconfig.h" />
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libjpeg/include/jerror.h" />
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libjpeg/include/jmorecfg.h" />
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libjpeg/include/jpeglib.h" />
+								</VirtualDirectory>
+								<File
+									Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libjpeg/Android.mk" />
+							</VirtualDirectory>
+							<VirtualDirectory Name="libwebp">
+								<VirtualDirectory Name="include">
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libwebp/include/decode.h" />
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libwebp/include/encode.h" />
+									<File
+										Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libwebp/include/types.h" />
+								</VirtualDirectory>
+								<VirtualDirectory Name="libs">
+									<VirtualDirectory Name="armeabi">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libwebp/libs/armeabi/libwebp.a" />
+									</VirtualDirectory>
+									<VirtualDirectory Name="x86">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libwebp/libs/x86/libwebp.a" />
+									</VirtualDirectory>
+									<VirtualDirectory Name="armeabi-v7a">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libwebp/libs/armeabi-v7a/libwebp.a" />
+									</VirtualDirectory>
+								</VirtualDirectory>
+								<File
+									Name="cocos2d-x/cocos2dx/platform/third_party/android/prebuilt/libwebp/Android.mk" />
+							</VirtualDirectory>
+						</VirtualDirectory>
+					</VirtualDirectory>
+					<VirtualDirectory Name="win32">
+						<VirtualDirectory Name="libwebp">
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libwebp/decode.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libwebp/encode.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libwebp/types.h" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="libpng">
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libpng/png.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libpng/pngconf.h" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="OGLES">
+							<VirtualDirectory Name="GL">
+								<File
+									Name="cocos2d-x/cocos2dx/platform/third_party/win32/OGLES/GL/glew.h" />
+								<File
+									Name="cocos2d-x/cocos2dx/platform/third_party/win32/OGLES/GL/glxew.h" />
+								<File
+									Name="cocos2d-x/cocos2dx/platform/third_party/win32/OGLES/GL/wglew.h" />
+							</VirtualDirectory>
+						</VirtualDirectory>
+						<VirtualDirectory Name="libjpeg">
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libjpeg/jconfig.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libjpeg/jconfig_linux.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libjpeg/jconfig_win.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libjpeg/jerror.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libjpeg/jmorecfg.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libjpeg/jpeglib.h" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="iconv">
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/iconv/iconv.h" />
+						</VirtualDirectory>
+						<File
+							Name="cocos2d-x/cocos2dx/platform/third_party/win32/third_party_versions.txt" />
+						<VirtualDirectory Name="pthread">
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/pthread/pthread.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/pthread/sched.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/pthread/semaphore.h" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="zlib">
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/zlib/zconf.h" />
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/win32/zlib/zlib.h" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="libtiff">
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libtiff/tiff.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libtiff/tiffconf.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libtiff/tiffio.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libtiff/tiffvers.h" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="libraries">
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/glew32.dll" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/glew32.lib" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/iconv.dll" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/libcurl.dll" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/libcurl_imp.lib" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/libiconv.lib" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/libjpeg.lib" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/libpng.lib" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/libtiff.dll" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/libtiff.lib" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/libwebp.lib" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/libzlib.lib" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/pthreadVCE2.dll" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/pthreadVCE2.lib" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/libraries/zlib1.dll" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="curl">
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/win32/curl/curl.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/curl/curlbuild.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/curl/curlrules.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/curl/curlver.h" />
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/win32/curl/easy.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/curl/mprintf.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/curl/multi.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/curl/stdcheaders.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/win32/curl/typecheck-gcc.h" />
+						</VirtualDirectory>
+					</VirtualDirectory>
+					<VirtualDirectory Name="ios">
+						<VirtualDirectory Name="curl">
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/ios/curl/curl.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/ios/curl/curlbuild.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/ios/curl/curlrules.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/ios/curl/curlver.h" />
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/ios/curl/easy.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/ios/curl/mprintf.h" />
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/ios/curl/multi.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/ios/curl/stdcheaders.h" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/ios/curl/typecheck-gcc.h" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="webp">
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/ios/webp/decode.h" />
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/ios/webp/encode.h" />
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/ios/webp/types.h" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="libraries">
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/ios/libraries/libcurl.a" />
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/ios/libraries/libwebp.a" />
+						</VirtualDirectory>
+					</VirtualDirectory>
+					<VirtualDirectory Name="mac">
+						<VirtualDirectory Name="libraries">
+							<File
+								Name="cocos2d-x/cocos2dx/platform/third_party/mac/libraries/libwebp.a" />
+						</VirtualDirectory>
+						<VirtualDirectory Name="webp">
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/mac/webp/decode.h" />
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/mac/webp/encode.h" />
+							<File Name="cocos2d-x/cocos2dx/platform/third_party/mac/webp/types.h" />
+						</VirtualDirectory>
+					</VirtualDirectory>
+				</VirtualDirectory>
+				<VirtualDirectory Name="android">
+					<VirtualDirectory Name="java">
+						<VirtualDirectory Name="src">
+							<VirtualDirectory Name="org">
+								<VirtualDirectory Name="cocos2dx">
+									<VirtualDirectory Name="lib">
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxAccelerometer.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxActivity.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxBitmap.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxEditBoxDialog.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxEditText.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxETCLoader.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxGLSurfaceView.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxHandler.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxHelper.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxLocalStorage.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxLuaJavaBridge.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxMusic.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxRenderer.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxSound.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxTextInputWraper.java" />
+										<File
+											Name="cocos2d-x/cocos2dx/platform/android/java/src/org/cocos2dx/lib/Cocos2dxTypefaces.java" />
+									</VirtualDirectory>
+								</VirtualDirectory>
+							</VirtualDirectory>
+						</VirtualDirectory>
+						<File
+							Name="cocos2d-x/cocos2dx/platform/android/java/AndroidManifest.xml" />
+						<File Name="cocos2d-x/cocos2dx/platform/android/java/ant.properties" />
+						<File Name="cocos2d-x/cocos2dx/platform/android/java/build.xml" />
+						<File
+							Name="cocos2d-x/cocos2dx/platform/android/java/proguard-project.txt" />
+						<File
+							Name="cocos2d-x/cocos2dx/platform/android/java/project.properties" />
+					</VirtualDirectory>
+					<File Name="cocos2d-x/cocos2dx/platform/android/.DS_Store" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCAccelerometer.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCAccelerometer.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCApplication.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCApplication.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCCommon.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCDevice.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCEGLView.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCEGLView.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCFileUtilsAndroid.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCFileUtilsAndroid.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCGL.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCImage.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCPlatformDefine.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/android/CCStdC.h" />
+					<VirtualDirectory Name="jni">
+						<File Name="cocos2d-x/cocos2dx/platform/android/jni/DPIJni.cpp" />
+						<File Name="cocos2d-x/cocos2dx/platform/android/jni/DPIJni.h" />
+						<File Name="cocos2d-x/cocos2dx/platform/android/jni/IMEJni.cpp" />
+						<File Name="cocos2d-x/cocos2dx/platform/android/jni/IMEJni.h" />
+						<File
+							Name="cocos2d-x/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxAccelerometer.cpp" />
+						<File
+							Name="cocos2d-x/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxBitmap.cpp" />
+						<File
+							Name="cocos2d-x/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxBitmap.h" />
+						<File
+							Name="cocos2d-x/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxHelper.cpp" />
+						<File
+							Name="cocos2d-x/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxHelper.h" />
+						<File
+							Name="cocos2d-x/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxRenderer.cpp" />
+						<File Name="cocos2d-x/cocos2dx/platform/android/jni/JniHelper.cpp" />
+						<File Name="cocos2d-x/cocos2dx/platform/android/jni/JniHelper.h" />
+						<File Name="cocos2d-x/cocos2dx/platform/android/jni/TouchesJni.cpp" />
+					</VirtualDirectory>
+				</VirtualDirectory>
+				<VirtualDirectory Name="win32">
+					<VirtualDirectory Name="compat">
+						<File Name="cocos2d-x/cocos2dx/platform/win32/compat/stdint.h" />
+					</VirtualDirectory>
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCAccelerometer.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCAccelerometer.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCApplication.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCApplication.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCCommon.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCDevice.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCEGLView.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCEGLView.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCFileUtilsWin32.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCFileUtilsWin32.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCGL.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCImage.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCPlatformDefine.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCStdC.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/win32/CCStdC.h" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="ios">
+					<File
+						Name="cocos2d-x/cocos2dx/platform/ios/AccelerometerDelegateWrapper.h" />
+					<File
+						Name="cocos2d-x/cocos2dx/platform/ios/AccelerometerDelegateWrapper.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCAccelerometer.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCAccelerometer.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCApplication.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCApplication.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCCommon.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCDevice.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCDirectorCaller.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCDirectorCaller.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCEGLView.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCEGLView.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCES2Renderer.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCES2Renderer.m" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCESRenderer.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCFileUtilsIOS.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCFileUtilsIOS.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCGL.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCImage.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCLock.cpp" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCLock.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCPlatformDefine.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCStdC.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/CCThread.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/EAGLView.h" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/EAGLView.mm" />
+					<File Name="cocos2d-x/cocos2dx/platform/ios/OpenGL_Internal.h" />
+					<VirtualDirectory Name="Simulation">
+						<File
+							Name="cocos2d-x/cocos2dx/platform/ios/Simulation/AccelerometerSimulation.h" />
+						<File
+							Name="cocos2d-x/cocos2dx/platform/ios/Simulation/AccelerometerSimulation.m" />
+					</VirtualDirectory>
+				</VirtualDirectory>
+				<File Name="cocos2d-x/cocos2dx/platform/.DS_Store" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCAccelerometerDelegate.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCApplicationProtocol.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCCommon.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCDevice.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCEGLViewProtocol.cpp" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCEGLViewProtocol.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCFileUtils.cpp" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCFileUtils.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCImage.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCImageCommon_cpp.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCImageCommonWebp.cpp" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCPlatformConfig.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCPlatformMacros.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCSAXParser.cpp" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCSAXParser.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCThread.cpp" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCThread.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCZipFile.cpp" />
+				<File Name="cocos2d-x/cocos2dx/platform/CCZipFile.h" />
+				<File Name="cocos2d-x/cocos2dx/platform/platform.cpp" />
+				<File Name="cocos2d-x/cocos2dx/platform/platform.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="kazmath">
+				<VirtualDirectory Name="src">
+					<VirtualDirectory Name="GL">
+						<File Name="cocos2d-x/cocos2dx/kazmath/src/GL/mat4stack.c" />
+						<File Name="cocos2d-x/cocos2dx/kazmath/src/GL/matrix.c" />
+					</VirtualDirectory>
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/aabb.c" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/ChangeLog" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/CMakeLists.txt" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/mat3.c" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/mat4.c" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/neon_matrix_impl.c" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/plane.c" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/quaternion.c" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/ray2.c" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/utility.c" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/vec2.c" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/vec3.c" />
+					<File Name="cocos2d-x/cocos2dx/kazmath/src/vec4.c" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="include">
+					<VirtualDirectory Name="kazmath">
+						<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/aabb.h" />
+						<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/kazmath.h" />
+						<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/mat3.h" />
+						<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/mat4.h" />
+						<File
+							Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/neon_matrix_impl.h" />
+						<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/plane.h" />
+						<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/quaternion.h" />
+						<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/ray2.h" />
+						<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/utility.h" />
+						<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/vec2.h" />
+						<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/vec3.h" />
+						<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/vec4.h" />
+						<VirtualDirectory Name="GL">
+							<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/GL/mat4stack.h" />
+							<File Name="cocos2d-x/cocos2dx/kazmath/include/kazmath/GL/matrix.h" />
+						</VirtualDirectory>
+					</VirtualDirectory>
+				</VirtualDirectory>
+			</VirtualDirectory>
+			<VirtualDirectory Name="misc_nodes">
+				<File Name="cocos2d-x/cocos2dx/misc_nodes/CCClippingNode.cpp" />
+				<File Name="cocos2d-x/cocos2dx/misc_nodes/CCClippingNode.h" />
+				<File Name="cocos2d-x/cocos2dx/misc_nodes/CCClippingRegionNode.cpp" />
+				<File Name="cocos2d-x/cocos2dx/misc_nodes/CCClippingRegionNode.h" />
+				<File Name="cocos2d-x/cocos2dx/misc_nodes/CCMotionStreak.cpp" />
+				<File Name="cocos2d-x/cocos2dx/misc_nodes/CCMotionStreak.h" />
+				<File Name="cocos2d-x/cocos2dx/misc_nodes/CCProgressTimer.cpp" />
+				<File Name="cocos2d-x/cocos2dx/misc_nodes/CCProgressTimer.h" />
+				<File Name="cocos2d-x/cocos2dx/misc_nodes/CCRenderTexture.cpp" />
+				<File Name="cocos2d-x/cocos2dx/misc_nodes/CCRenderTexture.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="actions">
+				<File Name="cocos2d-x/cocos2dx/actions/CCAction.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCAction.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionCamera.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionCamera.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionCatmullRom.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionCatmullRom.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionEase.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionEase.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionGrid.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionGrid.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionGrid3D.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionGrid3D.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionInstant.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionInstant.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionInterval.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionInterval.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionManager.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionManager.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionPageTurn3D.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionPageTurn3D.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionProgressTimer.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionProgressTimer.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionTiledGrid.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionTiledGrid.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionTween.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCActionTween.h" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCEffect.cpp" />
+				<File Name="cocos2d-x/cocos2dx/actions/CCEffect.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="support">
+				<VirtualDirectory Name="user_default">
+					<File Name="cocos2d-x/cocos2dx/support/user_default/CCUserDefault.cpp" />
+					<File Name="cocos2d-x/cocos2dx/support/user_default/CCUserDefault.h" />
+					<File Name="cocos2d-x/cocos2dx/support/user_default/CCUserDefault.mm" />
+					<File
+						Name="cocos2d-x/cocos2dx/support/user_default/CCUserDefaultAndroid.cpp" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="image_support">
+					<File Name="cocos2d-x/cocos2dx/support/image_support/TGAlib.cpp" />
+					<File Name="cocos2d-x/cocos2dx/support/image_support/TGAlib.h" />
+				</VirtualDirectory>
+				<File Name="cocos2d-x/cocos2dx/support/base64.cpp" />
+				<File Name="cocos2d-x/cocos2dx/support/base64.h" />
+				<File Name="cocos2d-x/cocos2dx/support/CCNotificationCenter.cpp" />
+				<File Name="cocos2d-x/cocos2dx/support/CCNotificationCenter.h" />
+				<File Name="cocos2d-x/cocos2dx/support/CCPointExtension.cpp" />
+				<File Name="cocos2d-x/cocos2dx/support/CCPointExtension.h" />
+				<File Name="cocos2d-x/cocos2dx/support/CCProfiling.cpp" />
+				<File Name="cocos2d-x/cocos2dx/support/CCProfiling.h" />
+				<File Name="cocos2d-x/cocos2dx/support/ccUTF8.cpp" />
+				<File Name="cocos2d-x/cocos2dx/support/ccUTF8.h" />
+				<File Name="cocos2d-x/cocos2dx/support/ccUtils.cpp" />
+				<File Name="cocos2d-x/cocos2dx/support/ccUtils.h" />
+				<File Name="cocos2d-x/cocos2dx/support/CCVertex.cpp" />
+				<File Name="cocos2d-x/cocos2dx/support/CCVertex.h" />
+				<File Name="cocos2d-x/cocos2dx/support/TransformUtils.cpp" />
+				<File Name="cocos2d-x/cocos2dx/support/TransformUtils.h" />
+				<VirtualDirectory Name="tinyxml2">
+					<File Name="cocos2d-x/cocos2dx/support/tinyxml2/tinyxml2.cpp" />
+					<File Name="cocos2d-x/cocos2dx/support/tinyxml2/tinyxml2.h" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="zip_support">
+					<File Name="cocos2d-x/cocos2dx/support/zip_support/ioapi.cpp" />
+					<File Name="cocos2d-x/cocos2dx/support/zip_support/ioapi.h" />
+					<File Name="cocos2d-x/cocos2dx/support/zip_support/unzip.cpp" />
+					<File Name="cocos2d-x/cocos2dx/support/zip_support/unzip.h" />
+					<File Name="cocos2d-x/cocos2dx/support/zip_support/ZipUtils.cpp" />
+					<File Name="cocos2d-x/cocos2dx/support/zip_support/ZipUtils.h" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="component">
+					<File Name="cocos2d-x/cocos2dx/support/component/CCComponent.cpp" />
+					<File Name="cocos2d-x/cocos2dx/support/component/CCComponent.h" />
+					<File
+						Name="cocos2d-x/cocos2dx/support/component/CCComponentContainer.cpp" />
+					<File Name="cocos2d-x/cocos2dx/support/component/CCComponentContainer.h" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="data_support">
+					<File Name="cocos2d-x/cocos2dx/support/data_support/ccCArray.cpp" />
+					<File Name="cocos2d-x/cocos2dx/support/data_support/ccCArray.h" />
+					<File Name="cocos2d-x/cocos2dx/support/data_support/uthash.h" />
+					<File Name="cocos2d-x/cocos2dx/support/data_support/utlist.h" />
+				</VirtualDirectory>
+			</VirtualDirectory>
+			<VirtualDirectory Name="label_nodes">
+				<File Name="cocos2d-x/cocos2dx/label_nodes/CCLabelAtlas.cpp" />
+				<File Name="cocos2d-x/cocos2dx/label_nodes/CCLabelAtlas.h" />
+				<File Name="cocos2d-x/cocos2dx/label_nodes/CCLabelBMFont.cpp" />
+				<File Name="cocos2d-x/cocos2dx/label_nodes/CCLabelBMFont.h" />
+				<File Name="cocos2d-x/cocos2dx/label_nodes/CCLabelTTF.cpp" />
+				<File Name="cocos2d-x/cocos2dx/label_nodes/CCLabelTTF.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="shaders">
+				<File Name="cocos2d-x/cocos2dx/shaders/CCGLProgram.cpp" />
+				<File Name="cocos2d-x/cocos2dx/shaders/CCGLProgram.h" />
+				<File Name="cocos2d-x/cocos2dx/shaders/ccGLStateCache.cpp" />
+				<File Name="cocos2d-x/cocos2dx/shaders/ccGLStateCache.h" />
+				<File Name="cocos2d-x/cocos2dx/shaders/ccShader_Position_uColor_frag.h" />
+				<File Name="cocos2d-x/cocos2dx/shaders/ccShader_Position_uColor_vert.h" />
+				<File Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionColor_frag.h" />
+				<File Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionColor_vert.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionColorLengthTexture_frag.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionColorLengthTexture_vert.h" />
+				<File Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionTexture_frag.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionTexture_uColor_frag.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionTexture_uColor_vert.h" />
+				<File Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionTexture_vert.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionTextureA8Color_frag.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionTextureA8Color_vert.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionTextureColor_frag.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionTextureColor_vert.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/shaders/ccShader_PositionTextureColorAlphaTest_frag.h" />
+				<File Name="cocos2d-x/cocos2dx/shaders/CCShaderCache.cpp" />
+				<File Name="cocos2d-x/cocos2dx/shaders/CCShaderCache.h" />
+				<File Name="cocos2d-x/cocos2dx/shaders/ccShaderEx_SwitchMask_frag.h" />
+				<File Name="cocos2d-x/cocos2dx/shaders/ccShaders.cpp" />
+				<File Name="cocos2d-x/cocos2dx/shaders/ccShaders.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="cocoa">
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCAffineTransform.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCAffineTransform.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCArray.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCArray.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCAutoreleasePool.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCAutoreleasePool.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCBool.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCDataVisitor.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCDataVisitor.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCDictionary.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCDictionary.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCDouble.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCFloat.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCGeometry.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCGeometry.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCInteger.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCNS.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCNS.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCObject.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCObject.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCPointArray.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCPointArray.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCSet.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCSet.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCString.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCString.h" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCZone.cpp" />
+				<File Name="cocos2d-x/cocos2dx/cocoa/CCZone.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="base_nodes">
+				<File Name="cocos2d-x/cocos2dx/base_nodes/CCAtlasNode.cpp" />
+				<File Name="cocos2d-x/cocos2dx/base_nodes/CCAtlasNode.h" />
+				<File Name="cocos2d-x/cocos2dx/base_nodes/CCGLBufferedNode.cpp" />
+				<File Name="cocos2d-x/cocos2dx/base_nodes/CCGLBufferedNode.h" />
+				<File Name="cocos2d-x/cocos2dx/base_nodes/CCNode.cpp" />
+				<File Name="cocos2d-x/cocos2dx/base_nodes/CCNode.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="text_input_node">
+				<File Name="cocos2d-x/cocos2dx/text_input_node/CCIMEDelegate.h" />
+				<File Name="cocos2d-x/cocos2dx/text_input_node/CCIMEDispatcher.cpp" />
+				<File Name="cocos2d-x/cocos2dx/text_input_node/CCIMEDispatcher.h" />
+				<File Name="cocos2d-x/cocos2dx/text_input_node/CCTextFieldTTF.cpp" />
+				<File Name="cocos2d-x/cocos2dx/text_input_node/CCTextFieldTTF.h" />
+			</VirtualDirectory>
+			<File Name="cocos2d-x/cocos2dx/.DS_Store" />
+			<File Name="cocos2d-x/cocos2dx/Android.mk" />
+			<File Name="cocos2d-x/cocos2dx/CCCamera.cpp" />
+			<File Name="cocos2d-x/cocos2dx/CCCamera.h" />
+			<File Name="cocos2d-x/cocos2dx/CCConfiguration.cpp" />
+			<File Name="cocos2d-x/cocos2dx/CCConfiguration.h" />
+			<File Name="cocos2d-x/cocos2dx/CCDirector.cpp" />
+			<File Name="cocos2d-x/cocos2dx/CCDirector.h" />
+			<File Name="cocos2d-x/cocos2dx/ccFPSImages.c" />
+			<File Name="cocos2d-x/cocos2dx/ccFPSImages.h" />
+			<File Name="cocos2d-x/cocos2dx/CCScheduler.cpp" />
+			<File Name="cocos2d-x/cocos2dx/CCScheduler.h" />
+			<File Name="cocos2d-x/cocos2dx/cocos2d.cpp" />
+			<VirtualDirectory Name="textures">
+				<File Name="cocos2d-x/cocos2dx/textures/CCTexture2D.cpp" />
+				<File Name="cocos2d-x/cocos2dx/textures/CCTexture2D.h" />
+				<File Name="cocos2d-x/cocos2dx/textures/CCTextureAtlas.cpp" />
+				<File Name="cocos2d-x/cocos2dx/textures/CCTextureAtlas.h" />
+				<File Name="cocos2d-x/cocos2dx/textures/CCTextureCache.cpp" />
+				<File Name="cocos2d-x/cocos2dx/textures/CCTextureCache.h" />
+				<File Name="cocos2d-x/cocos2dx/textures/CCTextureETC.cpp" />
+				<File Name="cocos2d-x/cocos2dx/textures/CCTextureETC.h" />
+				<File Name="cocos2d-x/cocos2dx/textures/CCTexturePVR.cpp" />
+				<File Name="cocos2d-x/cocos2dx/textures/CCTexturePVR.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="touch_dispatcher">
+				<File Name="cocos2d-x/cocos2dx/touch_dispatcher/CCTouch.cpp" />
+				<File Name="cocos2d-x/cocos2dx/touch_dispatcher/CCTouch.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/touch_dispatcher/CCTouchDelegateProtocol.h" />
+				<File Name="cocos2d-x/cocos2dx/touch_dispatcher/CCTouchDispatcher.cpp" />
+				<File Name="cocos2d-x/cocos2dx/touch_dispatcher/CCTouchDispatcher.h" />
+				<File Name="cocos2d-x/cocos2dx/touch_dispatcher/CCTouchHandler.cpp" />
+				<File Name="cocos2d-x/cocos2dx/touch_dispatcher/CCTouchHandler.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="sprite_nodes">
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCAnimation.cpp" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCAnimation.h" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCAnimationCache.cpp" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCAnimationCache.h" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCAutoScaleSprite.cpp" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCAutoScaleSprite.h" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCSprite.cpp" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCSprite.h" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCSpriteBatchNode.cpp" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCSpriteBatchNode.h" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCSpriteFrame.cpp" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCSpriteFrame.h" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCSpriteFrameCache.cpp" />
+				<File Name="cocos2d-x/cocos2dx/sprite_nodes/CCSpriteFrameCache.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="effects">
+				<File Name="cocos2d-x/cocos2dx/effects/CCGrabber.cpp" />
+				<File Name="cocos2d-x/cocos2dx/effects/CCGrabber.h" />
+				<File Name="cocos2d-x/cocos2dx/effects/CCGrid.cpp" />
+				<File Name="cocos2d-x/cocos2dx/effects/CCGrid.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="layers_scenes_transitions_nodes">
+				<File
+					Name="cocos2d-x/cocos2dx/layers_scenes_transitions_nodes/CCLayer.cpp" />
+				<File Name="cocos2d-x/cocos2dx/layers_scenes_transitions_nodes/CCLayer.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/layers_scenes_transitions_nodes/CCScene.cpp" />
+				<File Name="cocos2d-x/cocos2dx/layers_scenes_transitions_nodes/CCScene.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/layers_scenes_transitions_nodes/CCTransition.cpp" />
+				<File
+					Name="cocos2d-x/cocos2dx/layers_scenes_transitions_nodes/CCTransition.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/layers_scenes_transitions_nodes/CCTransitionPageTurn.cpp" />
+				<File
+					Name="cocos2d-x/cocos2dx/layers_scenes_transitions_nodes/CCTransitionPageTurn.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/layers_scenes_transitions_nodes/CCTransitionProgress.cpp" />
+				<File
+					Name="cocos2d-x/cocos2dx/layers_scenes_transitions_nodes/CCTransitionProgress.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="menu_nodes">
+				<File Name="cocos2d-x/cocos2dx/menu_nodes/CCMenu.cpp" />
+				<File Name="cocos2d-x/cocos2dx/menu_nodes/CCMenu.h" />
+				<File Name="cocos2d-x/cocos2dx/menu_nodes/CCMenuItem.cpp" />
+				<File Name="cocos2d-x/cocos2dx/menu_nodes/CCMenuItem.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="tilemap_parallax_nodes">
+				<File Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCParallaxNode.cpp" />
+				<File Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCParallaxNode.h" />
+				<File Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCTileMapAtlas.cpp" />
+				<File Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCTileMapAtlas.h" />
+				<File Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCTMXLayer.cpp" />
+				<File Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCTMXLayer.h" />
+				<File
+					Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCTMXObjectGroup.cpp" />
+				<File Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCTMXObjectGroup.h" />
+				<File Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCTMXTiledMap.cpp" />
+				<File Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCTMXTiledMap.h" />
+				<File Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCTMXXMLParser.cpp" />
+				<File Name="cocos2d-x/cocos2dx/tilemap_parallax_nodes/CCTMXXMLParser.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="script_support">
+				<File Name="cocos2d-x/cocos2dx/script_support/CCScriptSupport.cpp" />
+				<File Name="cocos2d-x/cocos2dx/script_support/CCScriptSupport.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="particle_nodes">
+				<File Name="cocos2d-x/cocos2dx/particle_nodes/CCParticleBatchNode.cpp" />
+				<File Name="cocos2d-x/cocos2dx/particle_nodes/CCParticleBatchNode.h" />
+				<File Name="cocos2d-x/cocos2dx/particle_nodes/CCParticleExamples.cpp" />
+				<File Name="cocos2d-x/cocos2dx/particle_nodes/CCParticleExamples.h" />
+				<File Name="cocos2d-x/cocos2dx/particle_nodes/CCParticleSystem.cpp" />
+				<File Name="cocos2d-x/cocos2dx/particle_nodes/CCParticleSystem.h" />
+				<File Name="cocos2d-x/cocos2dx/particle_nodes/CCParticleSystemQuad.cpp" />
+				<File Name="cocos2d-x/cocos2dx/particle_nodes/CCParticleSystemQuad.h" />
+				<File Name="cocos2d-x/cocos2dx/particle_nodes/firePngData.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="include">
+				<File Name="cocos2d-x/cocos2dx/include/ccConfig.h" />
+				<File Name="cocos2d-x/cocos2dx/include/CCEventType.h" />
+				<File Name="cocos2d-x/cocos2dx/include/ccMacros.h" />
+				<File Name="cocos2d-x/cocos2dx/include/CCProtocols.h" />
+				<File Name="cocos2d-x/cocos2dx/include/ccTypeInfo.h" />
+				<File Name="cocos2d-x/cocos2dx/include/ccTypes.h" />
+				<File Name="cocos2d-x/cocos2dx/include/cocos2d.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="draw_nodes">
+				<File Name="cocos2d-x/cocos2dx/draw_nodes/CCDrawingPrimitives.cpp" />
+				<File Name="cocos2d-x/cocos2dx/draw_nodes/CCDrawingPrimitives.h" />
+				<File Name="cocos2d-x/cocos2dx/draw_nodes/CCDrawNode.cpp" />
+				<File Name="cocos2d-x/cocos2dx/draw_nodes/CCDrawNode.h" />
+				<File Name="cocos2d-x/cocos2dx/draw_nodes/CCShapeNode.cpp" />
+				<File Name="cocos2d-x/cocos2dx/draw_nodes/CCShapeNode.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="keypad_dispatcher">
+				<File Name="cocos2d-x/cocos2dx/keypad_dispatcher/CCKeypadDelegate.cpp" />
+				<File Name="cocos2d-x/cocos2dx/keypad_dispatcher/CCKeypadDelegate.h" />
+				<File Name="cocos2d-x/cocos2dx/keypad_dispatcher/CCKeypadDispatcher.cpp" />
+				<File Name="cocos2d-x/cocos2dx/keypad_dispatcher/CCKeypadDispatcher.h" />
+			</VirtualDirectory>
+		</VirtualDirectory>
+		<VirtualDirectory Name="extensions">
+			<VirtualDirectory Name="proj.win32">
+				<File Name="cocos2d-x/extensions/proj.win32/Win32InputBox.cpp" />
+				<File Name="cocos2d-x/extensions/proj.win32/Win32InputBox.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="GUI">
+				<VirtualDirectory Name="CCEditBox">
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBox.cpp" />
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBox.h" />
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBoxImpl.h" />
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBoxImplAndroid.cpp" />
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBoxImplAndroid.h" />
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBoxImplIOS.h" />
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBoxImplIOS.mm" />
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBoxImplMac.h" />
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBoxImplMac.mm" />
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBoxImplNone.cpp" />
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBoxImplWin.cpp" />
+					<File Name="cocos2d-x/extensions/GUI/CCEditBox/CCEditBoxImplWin.h" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="CCControlExtension">
+					<File Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControl.cpp" />
+					<File Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControl.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlButton.cpp" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlButton.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlColourPicker.cpp" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlColourPicker.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlExtensions.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlHuePicker.cpp" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlHuePicker.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlPotentiometer.cpp" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlPotentiometer.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.cpp" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlSlider.cpp" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlSlider.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlStepper.cpp" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlStepper.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlSwitch.cpp" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlSwitch.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlUtils.cpp" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCControlUtils.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCInvocation.cpp" />
+					<File Name="cocos2d-x/extensions/GUI/CCControlExtension/CCInvocation.h" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCScale9Sprite.cpp" />
+					<File
+						Name="cocos2d-x/extensions/GUI/CCControlExtension/CCScale9Sprite.h" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="CCScrollView">
+					<File Name="cocos2d-x/extensions/GUI/CCScrollView/CCScrollView.cpp" />
+					<File Name="cocos2d-x/extensions/GUI/CCScrollView/CCScrollView.h" />
+					<File Name="cocos2d-x/extensions/GUI/CCScrollView/CCSorting.cpp" />
+					<File Name="cocos2d-x/extensions/GUI/CCScrollView/CCSorting.h" />
+					<File Name="cocos2d-x/extensions/GUI/CCScrollView/CCTableView.cpp" />
+					<File Name="cocos2d-x/extensions/GUI/CCScrollView/CCTableView.h" />
+					<File Name="cocos2d-x/extensions/GUI/CCScrollView/CCTableViewCell.cpp" />
+					<File Name="cocos2d-x/extensions/GUI/CCScrollView/CCTableViewCell.h" />
+				</VirtualDirectory>
+			</VirtualDirectory>
+			<File Name="cocos2d-x/extensions/Android.mk" />
+			<File Name="cocos2d-x/extensions/cocos-ext.h" />
+			<File Name="cocos2d-x/extensions/ExtensionMacros.h" />
+			<VirtualDirectory Name="Components">
+				<File Name="cocos2d-x/extensions/Components/CCComAttribute.cpp" />
+				<File Name="cocos2d-x/extensions/Components/CCComAttribute.h" />
+				<File Name="cocos2d-x/extensions/Components/CCComAudio.cpp" />
+				<File Name="cocos2d-x/extensions/Components/CCComAudio.h" />
+				<File Name="cocos2d-x/extensions/Components/CCComController.cpp" />
+				<File Name="cocos2d-x/extensions/Components/CCComController.h" />
+				<File Name="cocos2d-x/extensions/Components/CCInputDelegate.cpp" />
+				<File Name="cocos2d-x/extensions/Components/CCInputDelegate.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="AssetsManager">
+				<File Name="cocos2d-x/extensions/AssetsManager/AssetsManager.cpp" />
+				<File Name="cocos2d-x/extensions/AssetsManager/AssetsManager.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="CCBReader">
+				<File Name="cocos2d-x/extensions/CCBReader/CCBAnimationManager.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBAnimationManager.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBFileLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBFileLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBKeyframe.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBKeyframe.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBMemberVariableAssigner.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBReader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBReader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBSelectorResolver.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBSequence.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBSequence.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBSequenceProperty.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBSequenceProperty.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBValue.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCBValue.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCControlButtonLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCControlButtonLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCControlLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCControlLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCData.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCData.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCLabelBMFontLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCLabelBMFontLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCLabelTTFLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCLabelTTFLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCLayerColorLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCLayerColorLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCLayerGradientLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCLayerGradientLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCLayerLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCLayerLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCMenuItemImageLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCMenuItemImageLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCMenuItemLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCMenuItemLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCMenuLoader.h" />
+				<File
+					Name="cocos2d-x/extensions/CCBReader/CCNode+CCBRelativePositioning.cpp" />
+				<File
+					Name="cocos2d-x/extensions/CCBReader/CCNode+CCBRelativePositioning.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCNodeLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCNodeLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCNodeLoaderLibrary.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCNodeLoaderLibrary.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCNodeLoaderListener.h" />
+				<File
+					Name="cocos2d-x/extensions/CCBReader/CCParticleSystemQuadLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCParticleSystemQuadLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCScale9SpriteLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCScale9SpriteLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCScrollViewLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCScrollViewLoader.h" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCSpriteLoader.cpp" />
+				<File Name="cocos2d-x/extensions/CCBReader/CCSpriteLoader.h" />
+			</VirtualDirectory>
+		</VirtualDirectory>
+		<VirtualDirectory Name="licenses">
+			<File Name="cocos2d-x/licenses/LICENSE_artwork.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_bada_pthread.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_box2d.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_CCBReader.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_CCControlExtension.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_chipmunk.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_cocos2d-iphone.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_cocos2d-x.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_cocosdenshion.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_curl.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_FontLabel.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_iconv.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_js.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_jsoncpp.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_Kazmath.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_libjpeg.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_libpng.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_libtiff.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_libwebsockets.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_libxml2.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_lua.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_ogg_vorbis.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_sigslot.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_SpiderMonkey.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_tolua++.txt" />
+			<File Name="cocos2d-x/licenses/LICENSE_zlib.txt" />
+		</VirtualDirectory>
+		<File Name="cocos2d-x/.DS_Store" />
+		<File Name="cocos2d-x/AUTHORS" />
+		<File Name="cocos2d-x/CHANGELOG" />
+		<File Name="cocos2d-x/README.mdown" />
+	</VirtualDirectory>
+	<File Name=".DS_Store" />
+	<File Name="cppcheck.list" />
+	<File Name="main.c" />
+	<File Name="xcv.project" />
+	<File Name="xcv.workspace" />
+	<VirtualDirectory Name="third_party">
+		<VirtualDirectory Name="chipmunk">
+			<VirtualDirectory Name="proj.android">
+				<File Name="third_party/chipmunk/proj.android/Android.mk" />
+			</VirtualDirectory>
+			<File Name="third_party/chipmunk/LICENSE.txt" />
+			<File Name="third_party/chipmunk/README.textile" />
+			<File Name="third_party/chipmunk/VERSION.txt" />
+			<VirtualDirectory Name="luabinding">
+				<File Name="third_party/chipmunk/luabinding/build.bat" />
+				<File Name="third_party/chipmunk/luabinding/build.sh" />
+				<File
+					Name="third_party/chipmunk/luabinding/CCPhysicsWorld_luabinding.cpp" />
+				<File Name="third_party/chipmunk/luabinding/CCPhysicsWorld_luabinding.h" />
+				<File
+					Name="third_party/chipmunk/luabinding/CCPhysicsWorld_luabinding.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="include">
+				<VirtualDirectory Name="constraints">
+					<File Name="third_party/chipmunk/include/constraints/cpConstraint.h" />
+					<File
+						Name="third_party/chipmunk/include/constraints/cpDampedRotarySpring.h" />
+					<File Name="third_party/chipmunk/include/constraints/cpDampedSpring.h" />
+					<File Name="third_party/chipmunk/include/constraints/cpGearJoint.h" />
+					<File Name="third_party/chipmunk/include/constraints/cpGrooveJoint.h" />
+					<File Name="third_party/chipmunk/include/constraints/cpPinJoint.h" />
+					<File Name="third_party/chipmunk/include/constraints/cpPivotJoint.h" />
+					<File Name="third_party/chipmunk/include/constraints/cpRatchetJoint.h" />
+					<File
+						Name="third_party/chipmunk/include/constraints/cpRotaryLimitJoint.h" />
+					<File Name="third_party/chipmunk/include/constraints/cpSimpleMotor.h" />
+					<File Name="third_party/chipmunk/include/constraints/cpSlideJoint.h" />
+					<File Name="third_party/chipmunk/include/constraints/util.h" />
+				</VirtualDirectory>
+				<File Name="third_party/chipmunk/include/chipmunk.h" />
+				<File Name="third_party/chipmunk/include/chipmunk_ffi.h" />
+				<File Name="third_party/chipmunk/include/chipmunk_private.h" />
+				<File Name="third_party/chipmunk/include/chipmunk_types.h" />
+				<File Name="third_party/chipmunk/include/chipmunk_unsafe.h" />
+				<File Name="third_party/chipmunk/include/cpArbiter.h" />
+				<File Name="third_party/chipmunk/include/cpBB.h" />
+				<File Name="third_party/chipmunk/include/cpBody.h" />
+				<File Name="third_party/chipmunk/include/cpPolyShape.h" />
+				<File Name="third_party/chipmunk/include/cpShape.h" />
+				<File Name="third_party/chipmunk/include/cpSpace.h" />
+				<File Name="third_party/chipmunk/include/cpSpatialIndex.h" />
+				<File Name="third_party/chipmunk/include/cpVect.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="src">
+				<VirtualDirectory Name="constraints">
+					<File Name="third_party/chipmunk/src/constraints/cpConstraint.c" />
+					<File Name="third_party/chipmunk/src/constraints/cpDampedRotarySpring.c" />
+					<File Name="third_party/chipmunk/src/constraints/cpDampedSpring.c" />
+					<File Name="third_party/chipmunk/src/constraints/cpGearJoint.c" />
+					<File Name="third_party/chipmunk/src/constraints/cpGrooveJoint.c" />
+					<File Name="third_party/chipmunk/src/constraints/cpPinJoint.c" />
+					<File Name="third_party/chipmunk/src/constraints/cpPivotJoint.c" />
+					<File Name="third_party/chipmunk/src/constraints/cpRatchetJoint.c" />
+					<File Name="third_party/chipmunk/src/constraints/cpRotaryLimitJoint.c" />
+					<File Name="third_party/chipmunk/src/constraints/cpSimpleMotor.c" />
+					<File Name="third_party/chipmunk/src/constraints/cpSlideJoint.c" />
+				</VirtualDirectory>
+				<File Name="third_party/chipmunk/src/chipmunk.c" />
+				<File Name="third_party/chipmunk/src/cpArbiter.c" />
+				<File Name="third_party/chipmunk/src/cpArray.c" />
+				<File Name="third_party/chipmunk/src/cpBB.c" />
+				<File Name="third_party/chipmunk/src/cpBBTree.c" />
+				<File Name="third_party/chipmunk/src/cpBody.c" />
+				<File Name="third_party/chipmunk/src/cpCollision.c" />
+				<File Name="third_party/chipmunk/src/cpHashSet.c" />
+				<File Name="third_party/chipmunk/src/cpPolyShape.c" />
+				<File Name="third_party/chipmunk/src/cpShape.c" />
+				<File Name="third_party/chipmunk/src/cpSpace.c" />
+				<File Name="third_party/chipmunk/src/cpSpaceComponent.c" />
+				<File Name="third_party/chipmunk/src/cpSpaceHash.c" />
+				<File Name="third_party/chipmunk/src/cpSpaceQuery.c" />
+				<File Name="third_party/chipmunk/src/cpSpaceStep.c" />
+				<File Name="third_party/chipmunk/src/cpSpatialIndex.c" />
+				<File Name="third_party/chipmunk/src/cpSweep1D.c" />
+				<File Name="third_party/chipmunk/src/cpVect.c" />
+				<File Name="third_party/chipmunk/src/prime.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="cocos2dx_support">
+				<File Name="third_party/chipmunk/cocos2dx_support/CCPhysicsBody.cpp" />
+				<File Name="third_party/chipmunk/cocos2dx_support/CCPhysicsBody.h" />
+				<File Name="third_party/chipmunk/cocos2dx_support/CCPhysicsDebugNode.cpp" />
+				<File Name="third_party/chipmunk/cocos2dx_support/CCPhysicsDebugNode.h" />
+				<File Name="third_party/chipmunk/cocos2dx_support/CCPhysicsShape.cpp" />
+				<File Name="third_party/chipmunk/cocos2dx_support/CCPhysicsShape.h" />
+				<File Name="third_party/chipmunk/cocos2dx_support/CCPhysicsSupport.cpp" />
+				<File Name="third_party/chipmunk/cocos2dx_support/CCPhysicsSupport.h" />
+				<File Name="third_party/chipmunk/cocos2dx_support/CCPhysicsWorld.cpp" />
+				<File Name="third_party/chipmunk/cocos2dx_support/CCPhysicsWorld.h" />
+			</VirtualDirectory>
+		</VirtualDirectory>
+		<VirtualDirectory Name="CSArmature">
+			<VirtualDirectory Name="external_tool">
+				<File Name="third_party/CSArmature/external_tool/CCTexture2DMutable.cpp" />
+				<File Name="third_party/CSArmature/external_tool/CCTexture2DMutable.h" />
+				<File Name="third_party/CSArmature/external_tool/sigslot.h" />
+				<VirtualDirectory Name="Json">
+					<VirtualDirectory Name="json">
+						<File Name="third_party/CSArmature/external_tool/Json/json/autolink.h" />
+						<File Name="third_party/CSArmature/external_tool/Json/json/config.h" />
+						<File Name="third_party/CSArmature/external_tool/Json/json/features.h" />
+						<File Name="third_party/CSArmature/external_tool/Json/json/forwards.h" />
+						<File Name="third_party/CSArmature/external_tool/Json/json/json_lib.h" />
+						<File Name="third_party/CSArmature/external_tool/Json/json/reader.h" />
+						<File Name="third_party/CSArmature/external_tool/Json/json/value.h" />
+						<File Name="third_party/CSArmature/external_tool/Json/json/writer.h" />
+					</VirtualDirectory>
+					<File
+						Name="third_party/CSArmature/external_tool/Json/CSContentJsonDictionary.cpp" />
+					<File
+						Name="third_party/CSArmature/external_tool/Json/CSContentJsonDictionary.h" />
+					<VirtualDirectory Name="lib_json">
+						<File
+							Name="third_party/CSArmature/external_tool/Json/lib_json/json_batchallocator.h" />
+						<File
+							Name="third_party/CSArmature/external_tool/Json/lib_json/json_internalarray.inl" />
+						<File
+							Name="third_party/CSArmature/external_tool/Json/lib_json/json_internalmap.inl" />
+						<File
+							Name="third_party/CSArmature/external_tool/Json/lib_json/json_reader.cpp" />
+						<File
+							Name="third_party/CSArmature/external_tool/Json/lib_json/json_tool.h" />
+						<File
+							Name="third_party/CSArmature/external_tool/Json/lib_json/json_value.cpp" />
+						<File
+							Name="third_party/CSArmature/external_tool/Json/lib_json/json_valueiterator.inl" />
+						<File
+							Name="third_party/CSArmature/external_tool/Json/lib_json/json_writer.cpp" />
+						<File
+							Name="third_party/CSArmature/external_tool/Json/lib_json/sconscript" />
+					</VirtualDirectory>
+				</VirtualDirectory>
+			</VirtualDirectory>
+			<VirtualDirectory Name="utils">
+				<File Name="third_party/CSArmature/utils/CSArmatureDataManager.cpp" />
+				<File Name="third_party/CSArmature/utils/CSArmatureDataManager.h" />
+				<File Name="third_party/CSArmature/utils/CSArmatureDefine.h" />
+				<File Name="third_party/CSArmature/utils/CSConstValue.h" />
+				<File Name="third_party/CSArmature/utils/CSDataReaderHelper.cpp" />
+				<File Name="third_party/CSArmature/utils/CSDataReaderHelper.h" />
+				<File Name="third_party/CSArmature/utils/CSSpriteFrameCacheHelper.cpp" />
+				<File Name="third_party/CSArmature/utils/CSSpriteFrameCacheHelper.h" />
+				<File Name="third_party/CSArmature/utils/CSTransformHelp.cpp" />
+				<File Name="third_party/CSArmature/utils/CSTransformHelp.h" />
+				<File Name="third_party/CSArmature/utils/CSTweenFunction.cpp" />
+				<File Name="third_party/CSArmature/utils/CSTweenFunction.h" />
+				<File Name="third_party/CSArmature/utils/CSUtilMath.cpp" />
+				<File Name="third_party/CSArmature/utils/CSUtilMath.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="display">
+				<File Name="third_party/CSArmature/display/CSBatchNode.cpp" />
+				<File Name="third_party/CSArmature/display/CSBatchNode.h" />
+				<File Name="third_party/CSArmature/display/CSDecorativeDisplay.cpp" />
+				<File Name="third_party/CSArmature/display/CSDecorativeDisplay.h" />
+				<File Name="third_party/CSArmature/display/CSDisplayFactory.cpp" />
+				<File Name="third_party/CSArmature/display/CSDisplayFactory.h" />
+				<File Name="third_party/CSArmature/display/CSDisplayManager.cpp" />
+				<File Name="third_party/CSArmature/display/CSDisplayManager.h" />
+				<File Name="third_party/CSArmature/display/CSShaderNode.cpp" />
+				<File Name="third_party/CSArmature/display/CSShaderNode.h" />
+				<File Name="third_party/CSArmature/display/CSSkin.cpp" />
+				<File Name="third_party/CSArmature/display/CSSkin.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="proj.android">
+				<File Name="third_party/CSArmature/proj.android/Android.mk" />
+			</VirtualDirectory>
+			<File Name="third_party/CSArmature/CSArmature.cpp" />
+			<File Name="third_party/CSArmature/CSArmature.h" />
+			<File Name="third_party/CSArmature/CSBone.cpp" />
+			<File Name="third_party/CSArmature/CSBone.h" />
+			<VirtualDirectory Name="luabinding">
+				<File Name="third_party/CSArmature/luabinding/build.bat" />
+				<File Name="third_party/CSArmature/luabinding/build.sh" />
+				<File Name="third_party/CSArmature/luabinding/CSArmature_luabinding.cpp" />
+				<File Name="third_party/CSArmature/luabinding/CSArmature_luabinding.h" />
+				<File
+					Name="third_party/CSArmature/luabinding/CSArmature_luabinding.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="animation">
+				<File Name="third_party/CSArmature/animation/CSAnimation.cpp" />
+				<File Name="third_party/CSArmature/animation/CSAnimation.h" />
+				<File Name="third_party/CSArmature/animation/CSProcessBase.cpp" />
+				<File Name="third_party/CSArmature/animation/CSProcessBase.h" />
+				<File Name="third_party/CSArmature/animation/CSTween.cpp" />
+				<File Name="third_party/CSArmature/animation/CSTween.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="datas">
+				<File Name="third_party/CSArmature/datas/CSDatas.cpp" />
+				<File Name="third_party/CSArmature/datas/CSDatas.h" />
+			</VirtualDirectory>
+		</VirtualDirectory>
+		<File Name="third_party/third_party_luabinding.cpp" />
+		<File Name="third_party/third_party_luabinding.h" />
+		<VirtualDirectory Name="proj.android">
+			<File Name="third_party/proj.android/Android.mk" />
+		</VirtualDirectory>
+	</VirtualDirectory>
+	<VirtualDirectory Name="cocos2dx_extra">
+		<VirtualDirectory Name="extra">
+			<VirtualDirectory Name="platform">
+				<VirtualDirectory Name="ios">
+					<VirtualDirectory Name="openudid">
+						<File Name="cocos2dx_extra/extra/platform/ios/openudid/OpenUDIDIOS.h" />
+						<File Name="cocos2dx_extra/extra/platform/ios/openudid/OpenUDIDIOS.m" />
+					</VirtualDirectory>
+					<VirtualDirectory Name="json">
+						<File Name="cocos2dx_extra/extra/platform/ios/json/SBJSON.h" />
+						<File Name="cocos2dx_extra/extra/platform/ios/json/SBJSON.m" />
+						<File Name="cocos2dx_extra/extra/platform/ios/json/SBJsonBase.h" />
+						<File Name="cocos2dx_extra/extra/platform/ios/json/SBJsonBase.m" />
+						<File Name="cocos2dx_extra/extra/platform/ios/json/SBJsonParser.h" />
+						<File Name="cocos2dx_extra/extra/platform/ios/json/SBJsonParser.m" />
+						<File Name="cocos2dx_extra/extra/platform/ios/json/SBJsonWriter.h" />
+						<File Name="cocos2dx_extra/extra/platform/ios/json/SBJsonWriter.m" />
+					</VirtualDirectory>
+					<File Name="cocos2dx_extra/extra/platform/ios/CCCryptoIOS.mm" />
+					<File Name="cocos2dx_extra/extra/platform/ios/CCNative.mm" />
+					<File Name="cocos2dx_extra/extra/platform/ios/CCNativeIOS.h" />
+					<File Name="cocos2dx_extra/extra/platform/ios/CCNativeIOS.mm" />
+					<File Name="cocos2dx_extra/extra/platform/ios/CCStore.mm" />
+					<File Name="cocos2dx_extra/extra/platform/ios/CCStoreIOS.h" />
+					<File Name="cocos2dx_extra/extra/platform/ios/CCStoreIOS.mm" />
+					<File
+						Name="cocos2dx_extra/extra/platform/ios/CCStorePaymentTransactionWrapper.mm" />
+					<File
+						Name="cocos2dx_extra/extra/platform/ios/CCStoreReceiptVerifyRequestIOS.h" />
+					<File
+						Name="cocos2dx_extra/extra/platform/ios/CCStoreReceiptVerifyRequestIOS.mm" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="mac">
+					<File Name="cocos2dx_extra/extra/platform/mac/CCCryptoMac.mm" />
+					<File Name="cocos2dx_extra/extra/platform/mac/CCNative.mm" />
+					<File Name="cocos2dx_extra/extra/platform/mac/CCNativeMac.h" />
+					<File Name="cocos2dx_extra/extra/platform/mac/CCNativeMac.mm" />
+					<VirtualDirectory Name="openudid">
+						<File Name="cocos2dx_extra/extra/platform/mac/openudid/OpenUDIDMac.h" />
+						<File Name="cocos2dx_extra/extra/platform/mac/openudid/OpenUDIDMac.m" />
+					</VirtualDirectory>
+				</VirtualDirectory>
+				<VirtualDirectory Name="ios_mac">
+					<File Name="cocos2dx_extra/extra/platform/ios_mac/CCNetworkIOSMac.mm" />
+					<File Name="cocos2dx_extra/extra/platform/ios_mac/ReachabilityIOSMac.h" />
+					<File Name="cocos2dx_extra/extra/platform/ios_mac/ReachabilityIOSMac.m" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="android">
+					<File Name="cocos2dx_extra/extra/platform/android/CCCryptoAndroid.cpp" />
+					<File Name="cocos2dx_extra/extra/platform/android/CCNativeAndroid.cpp" />
+					<File Name="cocos2dx_extra/extra/platform/android/CCNetworkAndroid.cpp" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="win32">
+					<File Name="cocos2dx_extra/extra/platform/win32/CCCryptoWin32.cpp" />
+					<File Name="cocos2dx_extra/extra/platform/win32/CCNative.cpp" />
+					<File Name="cocos2dx_extra/extra/platform/win32/CCNativeWin32.cpp" />
+					<File Name="cocos2dx_extra/extra/platform/win32/CCNativeWin32.h" />
+					<File Name="cocos2dx_extra/extra/platform/win32/CCNativeWin32def.h" />
+					<File Name="cocos2dx_extra/extra/platform/win32/CCNetworkWin32.cpp" />
+				</VirtualDirectory>
+			</VirtualDirectory>
+			<VirtualDirectory Name="store">
+				<File Name="cocos2dx_extra/extra/store/CCStore.h" />
+				<File Name="cocos2dx_extra/extra/store/CCStorePaymentTransaction.cpp" />
+				<File Name="cocos2dx_extra/extra/store/CCStorePaymentTransaction.h" />
+				<File
+					Name="cocos2dx_extra/extra/store/CCStorePaymentTransactionWrapper.h" />
+				<File Name="cocos2dx_extra/extra/store/CCStoreProduct.cpp" />
+				<File Name="cocos2dx_extra/extra/store/CCStoreProduct.h" />
+				<File Name="cocos2dx_extra/extra/store/CCStoreProductsRequestDelegate.h" />
+				<File Name="cocos2dx_extra/extra/store/CCStoreTransactionObserver.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="crypto">
+				<VirtualDirectory Name="sha1">
+					<File Name="cocos2dx_extra/extra/crypto/sha1/sha1.cpp" />
+					<File Name="cocos2dx_extra/extra/crypto/sha1/sha1.h" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="xxtea">
+					<File Name="cocos2dx_extra/extra/crypto/xxtea/xxtea.c" />
+					<File Name="cocos2dx_extra/extra/crypto/xxtea/xxtea.h" />
+				</VirtualDirectory>
+				<File Name="cocos2dx_extra/extra/crypto/CCCrypto.cpp" />
+				<File Name="cocos2dx_extra/extra/crypto/CCCrypto.h" />
+				<VirtualDirectory Name="base64">
+					<File Name="cocos2dx_extra/extra/crypto/base64/libb64.c" />
+					<File Name="cocos2dx_extra/extra/crypto/base64/libb64.h" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="md5">
+					<File Name="cocos2dx_extra/extra/crypto/md5/md5.c" />
+					<File Name="cocos2dx_extra/extra/crypto/md5/md5.h" />
+				</VirtualDirectory>
+			</VirtualDirectory>
+			<VirtualDirectory Name="native">
+				<File Name="cocos2dx_extra/extra/native/CCAlertViewDelegate.h" />
+				<File Name="cocos2dx_extra/extra/native/CCNative.h" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="network">
+				<File Name="cocos2dx_extra/extra/network/CCHTTPRequest.cpp" />
+				<File Name="cocos2dx_extra/extra/network/CCHTTPRequest.h" />
+				<File Name="cocos2dx_extra/extra/network/CCHTTPRequestDelegate.h" />
+				<File Name="cocos2dx_extra/extra/network/CCNetwork.cpp" />
+				<File Name="cocos2dx_extra/extra/network/CCNetwork.h" />
+			</VirtualDirectory>
+			<File Name="cocos2dx_extra/extra/cocos2dx_extra.h" />
+			<VirtualDirectory Name="luabinding">
+				<File Name="cocos2dx_extra/extra/luabinding/build.bat" />
+				<File Name="cocos2dx_extra/extra/luabinding/build.sh" />
+				<File
+					Name="cocos2dx_extra/extra/luabinding/cocos2dx_extra_ios_iap_luabinding.cpp" />
+				<File
+					Name="cocos2dx_extra/extra/luabinding/cocos2dx_extra_ios_iap_luabinding.h" />
+				<File
+					Name="cocos2dx_extra/extra/luabinding/cocos2dx_extra_ios_iap_luabinding.tolua" />
+				<File
+					Name="cocos2dx_extra/extra/luabinding/cocos2dx_extra_luabinding.cpp" />
+				<File Name="cocos2dx_extra/extra/luabinding/cocos2dx_extra_luabinding.h" />
+				<File
+					Name="cocos2dx_extra/extra/luabinding/cocos2dx_extra_luabinding.tolua" />
+			</VirtualDirectory>
+		</VirtualDirectory>
+		<VirtualDirectory Name="proj.android">
+			<File Name="cocos2dx_extra/proj.android/Android.mk" />
+		</VirtualDirectory>
+	</VirtualDirectory>
+	<VirtualDirectory Name=".codelite">
+		<File Name=".codelite/qc2d.session" />
+		<File Name=".codelite/qc2d.tags" />
+		<File Name=".codelite/qc2d.workspace.chris" />
+		<File Name=".codelite/refactoring.db" />
+		<File Name=".codelite/sftp-workspace-settings.conf" />
+		<File Name=".codelite/xcv.session" />
+		<File Name=".codelite/xcv.tags" />
+		<File Name=".codelite/xcv.workspace.chris" />
+	</VirtualDirectory>
+	<VirtualDirectory Name="luabinding">
+		<VirtualDirectory Name="cocos2dx">
+			<VirtualDirectory Name="cocoa">
+				<File Name="luabinding/cocos2dx/cocoa/CCArray.tolua" />
+				<File Name="luabinding/cocos2dx/cocoa/CCBool.tolua" />
+				<File Name="luabinding/cocos2dx/cocoa/CCDictionary.tolua" />
+				<File Name="luabinding/cocos2dx/cocoa/CCDouble.tolua" />
+				<File Name="luabinding/cocos2dx/cocoa/CCFloat.tolua" />
+				<File Name="luabinding/cocos2dx/cocoa/CCGeometry.tolua" />
+				<File Name="luabinding/cocos2dx/cocoa/CCInteger.tolua" />
+				<File Name="luabinding/cocos2dx/cocoa/CCNS.tolua" />
+				<File Name="luabinding/cocos2dx/cocoa/CCObject.tolua" />
+				<File Name="luabinding/cocos2dx/cocoa/CCPointArray.tolua" />
+				<File Name="luabinding/cocos2dx/cocoa/CCSet.tolua" />
+				<File Name="luabinding/cocos2dx/cocoa/CCString.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="support">
+				<VirtualDirectory Name="user_default">
+					<File
+						Name="luabinding/cocos2dx/support/user_default/CCUserDefault.tolua" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="component">
+					<File Name="luabinding/cocos2dx/support/component/CCComponent.tolua" />
+					<File
+						Name="luabinding/cocos2dx/support/component/CCComponentContainer.tolua" />
+				</VirtualDirectory>
+				<File Name="luabinding/cocos2dx/support/CCNotificationCenter.tolua" />
+				<File Name="luabinding/cocos2dx/support/CCPointExtension.tolua" />
+				<File Name="luabinding/cocos2dx/support/CCProfiling.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="draw_nodes">
+				<File Name="luabinding/cocos2dx/draw_nodes/CCDrawingPrimitives.tolua" />
+				<File Name="luabinding/cocos2dx/draw_nodes/CCDrawNode.tolua" />
+				<File Name="luabinding/cocos2dx/draw_nodes/CCShapeNode.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="keypad_dispatcher">
+				<File
+					Name="luabinding/cocos2dx/keypad_dispatcher/CCKeypadDispatcher.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="misc_nodes">
+				<File Name="luabinding/cocos2dx/misc_nodes/CCClippingNode.tolua" />
+				<File Name="luabinding/cocos2dx/misc_nodes/CCClippingRegionNode.tolua" />
+				<File Name="luabinding/cocos2dx/misc_nodes/CCMotionStreak.tolua" />
+				<File Name="luabinding/cocos2dx/misc_nodes/CCProgressTimer.tolua" />
+				<File Name="luabinding/cocos2dx/misc_nodes/CCRenderTexture.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="layers_scenes_transitions_nodes">
+				<File
+					Name="luabinding/cocos2dx/layers_scenes_transitions_nodes/CCLayer.tolua" />
+				<File
+					Name="luabinding/cocos2dx/layers_scenes_transitions_nodes/CCScene.tolua" />
+				<File
+					Name="luabinding/cocos2dx/layers_scenes_transitions_nodes/CCTransition.tolua" />
+				<File
+					Name="luabinding/cocos2dx/layers_scenes_transitions_nodes/CCTransitionPageTurn.tolua" />
+				<File
+					Name="luabinding/cocos2dx/layers_scenes_transitions_nodes/CCTransitionProgress.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="base_nodes">
+				<File Name="luabinding/cocos2dx/base_nodes/CCAtlasNode.tolua" />
+				<File Name="luabinding/cocos2dx/base_nodes/CCNode.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="platform">
+				<File Name="luabinding/cocos2dx/platform/CCAccelerometer.tolua" />
+				<File Name="luabinding/cocos2dx/platform/CCApplication.tolua" />
+				<File Name="luabinding/cocos2dx/platform/CCCommon.tolua" />
+				<File Name="luabinding/cocos2dx/platform/CCDevice.tolua" />
+				<File Name="luabinding/cocos2dx/platform/CCEGLViewProtocol.tolua" />
+				<File Name="luabinding/cocos2dx/platform/CCFileUtils.tolua" />
+				<File Name="luabinding/cocos2dx/platform/CCImage.tolua" />
+				<File Name="luabinding/cocos2dx/platform/platform.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="label_nodes">
+				<File Name="luabinding/cocos2dx/label_nodes/CCLabelAtlas.tolua" />
+				<File Name="luabinding/cocos2dx/label_nodes/CCLabelBMFont.tolua" />
+				<File Name="luabinding/cocos2dx/label_nodes/CCLabelTTF.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="include">
+				<File Name="luabinding/cocos2dx/include/ccTypes.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="actions">
+				<File Name="luabinding/cocos2dx/actions/CCAction.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCActionCamera.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCActionCatmullRom.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCActionEase.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCActionGrid.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCActionGrid3D.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCActionInstant.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCActionInterval.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCActionManager.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCActionPageTurn3D.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCActionProgressTimer.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCActionTiledGrid.tolua" />
+				<File Name="luabinding/cocos2dx/actions/CCEffect.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="text_input_node">
+				<File Name="luabinding/cocos2dx/text_input_node/CCTextFieldTTF.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="tilemap_parallax_nodes">
+				<File
+					Name="luabinding/cocos2dx/tilemap_parallax_nodes/CCParallaxNode.tolua" />
+				<File
+					Name="luabinding/cocos2dx/tilemap_parallax_nodes/CCTileMapAtlas.tolua" />
+				<File Name="luabinding/cocos2dx/tilemap_parallax_nodes/CCTMXLayer.tolua" />
+				<File
+					Name="luabinding/cocos2dx/tilemap_parallax_nodes/CCTMXObjectGroup.tolua" />
+				<File
+					Name="luabinding/cocos2dx/tilemap_parallax_nodes/CCTMXTiledMap.tolua" />
+				<File
+					Name="luabinding/cocos2dx/tilemap_parallax_nodes/CCTMXXMLParser.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="particle_nodes">
+				<File Name="luabinding/cocos2dx/particle_nodes/CCParticleBatchNode.tolua" />
+				<File Name="luabinding/cocos2dx/particle_nodes/CCParticleExamples.tolua" />
+				<File Name="luabinding/cocos2dx/particle_nodes/CCParticleSystem.tolua" />
+				<File
+					Name="luabinding/cocos2dx/particle_nodes/CCParticleSystemQuad.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="touch_dispatcher">
+				<File Name="luabinding/cocos2dx/touch_dispatcher/CCTouchDispatcher.tolua" />
+			</VirtualDirectory>
+			<File Name="luabinding/cocos2dx/CCCamera.tolua" />
+			<File Name="luabinding/cocos2dx/CCConfiguration.tolua" />
+			<File Name="luabinding/cocos2dx/CCDirector.tolua" />
+			<File Name="luabinding/cocos2dx/CCScheduler.tolua" />
+			<File Name="luabinding/cocos2dx/Cocos2d.tolua" />
+			<VirtualDirectory Name="menu_nodes">
+				<File Name="luabinding/cocos2dx/menu_nodes/CCMenu.tolua" />
+				<File Name="luabinding/cocos2dx/menu_nodes/CCMenuItem.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="kazmath">
+				<File Name="luabinding/cocos2dx/kazmath/kazmath.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="textures">
+				<File Name="luabinding/cocos2dx/textures/CCTexture2D.tolua" />
+				<File Name="luabinding/cocos2dx/textures/CCTextureCache.tolua" />
+			</VirtualDirectory>
+			<VirtualDirectory Name="sprite_nodes">
+				<File Name="luabinding/cocos2dx/sprite_nodes/CCAnimation.tolua" />
+				<File Name="luabinding/cocos2dx/sprite_nodes/CCAnimationCache.tolua" />
+				<File Name="luabinding/cocos2dx/sprite_nodes/CCAutoScaleSprite.tolua" />
+				<File Name="luabinding/cocos2dx/sprite_nodes/CCSprite.tolua" />
+				<File Name="luabinding/cocos2dx/sprite_nodes/CCSpriteBatchNode.tolua" />
+				<File Name="luabinding/cocos2dx/sprite_nodes/CCSpriteFrame.tolua" />
+				<File Name="luabinding/cocos2dx/sprite_nodes/CCSpriteFrameCache.tolua" />
+			</VirtualDirectory>
+		</VirtualDirectory>
+		<VirtualDirectory Name="extensions">
+			<VirtualDirectory Name="GUI">
+				<VirtualDirectory Name="CCControlExtension">
+					<File
+						Name="luabinding/extensions/GUI/CCControlExtension/CCControl.tolua" />
+					<File
+						Name="luabinding/extensions/GUI/CCControlExtension/CCControlButton.tolua" />
+					<File
+						Name="luabinding/extensions/GUI/CCControlExtension/CCControlColourPicker.tolua" />
+					<File
+						Name="luabinding/extensions/GUI/CCControlExtension/CCControlHuePicker.tolua" />
+					<File
+						Name="luabinding/extensions/GUI/CCControlExtension/CCControlPotentiometer.tolua" />
+					<File
+						Name="luabinding/extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.tolua" />
+					<File
+						Name="luabinding/extensions/GUI/CCControlExtension/CCControlSlider.tolua" />
+					<File
+						Name="luabinding/extensions/GUI/CCControlExtension/CCControlStepper.tolua" />
+					<File
+						Name="luabinding/extensions/GUI/CCControlExtension/CCControlSwitch.tolua" />
+					<File
+						Name="luabinding/extensions/GUI/CCControlExtension/CCControlUtils.tolua" />
+					<File
+						Name="luabinding/extensions/GUI/CCControlExtension/CCScale9Sprite.tolua" />
+				</VirtualDirectory>
+				<VirtualDirectory Name="CCEditBox">
+					<File Name="luabinding/extensions/GUI/CCEditBox/CCEditBox.tolua" />
+				</VirtualDirectory>
+			</VirtualDirectory>
+			<File Name="luabinding/extensions/cocos-ext.tolua" />
+			<VirtualDirectory Name="AssetsManager">
+				<File Name="luabinding/extensions/AssetsManager/AssetsManager.tolua" />
+			</VirtualDirectory>
+		</VirtualDirectory>
+		<File Name="luabinding/basic.lua" />
+		<File Name="luabinding/build.bat" />
+		<File Name="luabinding/build.sh" />
+		<File Name="luabinding/Cocos2d.tolua" />
+		<File Name="luabinding/README" />
+		<VirtualDirectory Name="CocosDenshion">
+			<File Name="luabinding/CocosDenshion/SimpleAudioEngine.tolua" />
+		</VirtualDirectory>
+	</VirtualDirectory>
+	<VirtualDirectory Name="framework_precompiled">
+		<File Name="framework_precompiled/framework_precompiled.zip" />
+	</VirtualDirectory>
+	<VirtualDirectory Name="lua_extensions">
+		<VirtualDirectory Name="proj.android">
+			<File Name="lua_extensions/proj.android/Android.mk" />
+		</VirtualDirectory>
+		<VirtualDirectory Name="socket">
+			<File Name="lua_extensions/socket/auxiliar.c" />
+			<File Name="lua_extensions/socket/auxiliar.h" />
+			<File Name="lua_extensions/socket/except.c" />
+			<File Name="lua_extensions/socket/except.h" />
+			<File Name="lua_extensions/socket/inet.c" />
+			<File Name="lua_extensions/socket/inet.h" />
+			<File Name="lua_extensions/socket/luasocket.c" />
+			<File Name="lua_extensions/socket/luasocket.h" />
+			<File Name="lua_extensions/socket/luasocket_buffer.c" />
+			<File Name="lua_extensions/socket/luasocket_buffer.h" />
+			<File Name="lua_extensions/socket/luasocket_io.c" />
+			<File Name="lua_extensions/socket/luasocket_io.h" />
+			<File Name="lua_extensions/socket/mime.c" />
+			<File Name="lua_extensions/socket/mime.h" />
+			<File Name="lua_extensions/socket/options.c" />
+			<File Name="lua_extensions/socket/options.h" />
+			<File Name="lua_extensions/socket/select.c" />
+			<File Name="lua_extensions/socket/select.h" />
+			<File Name="lua_extensions/socket/serial.c" />
+			<File Name="lua_extensions/socket/socket.h" />
+			<File Name="lua_extensions/socket/socket_scripts.c" />
+			<File Name="lua_extensions/socket/socket_scripts.h" />
+			<File Name="lua_extensions/socket/tcp.c" />
+			<File Name="lua_extensions/socket/tcp.h" />
+			<File Name="lua_extensions/socket/timeout.c" />
+			<File Name="lua_extensions/socket/timeout.h" />
+			<File Name="lua_extensions/socket/udp.c" />
+			<File Name="lua_extensions/socket/udp.h" />
+			<File Name="lua_extensions/socket/unix.c" />
+			<File Name="lua_extensions/socket/unix.h" />
+			<File Name="lua_extensions/socket/usocket.c" />
+			<File Name="lua_extensions/socket/usocket.h" />
+			<File Name="lua_extensions/socket/wsocket.c" />
+			<File Name="lua_extensions/socket/wsocket.h" />
+		</VirtualDirectory>
+		<VirtualDirectory Name="zlib">
+			<File Name="lua_extensions/zlib/lua_zlib.c" />
+			<File Name="lua_extensions/zlib/lua_zlib.h" />
+		</VirtualDirectory>
+		<File Name="lua_extensions/lua_extensions.c" />
+		<File Name="lua_extensions/lua_extensions.h" />
+		<VirtualDirectory Name="cjson">
+			<File Name="lua_extensions/cjson/fpconv.c" />
+			<File Name="lua_extensions/cjson/fpconv.h" />
+			<File Name="lua_extensions/cjson/lua_cjson.c" />
+			<File Name="lua_extensions/cjson/lua_cjson.h" />
+			<File Name="lua_extensions/cjson/strbuf.c" />
+			<File Name="lua_extensions/cjson/strbuf.h" />
+		</VirtualDirectory>
+	</VirtualDirectory>
+</VirtualDirectory>
